@@ -1,1 +1,53 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    margin: 0px;
+    padding: 0px;
+    color: #f1efee;
+    background-color: #1b1918;
+    width: 100vw;
+    margin-right:4vw;
+}
+nav{
+    background-color: #1b1918;
+    border-bottom: solid 2px #d5911a;
+}
+.players{
+    justify-content: space-between;
+    width: 100%;
+    padding:  0 0 0 4vw;
+    border-bottom: solid 2px #d5911a;
+}
+form{
+    padding: 2vw;
+}
+form>button{
+    margin-right:8vw;
+}
+h3{
+    padding-left: 2vw;
+}
+.flex-inline{
+    display: inline-flex;
+}
+.flex{
+    display: flex;
+}
+.board-grid>.flex-inline{
+    border: solid 1px #d5911a;
+}
+.grid-box{
+    width: 15vh;
+    height: 15vh;
+}
+.grid-box:nth-child(2){
+    border-left: solid 1px #d5911a;
+    border-right: solid 1px #d5911a;
+}
+.board-grid{
+    display: flex;
+    flex-direction: column;
+    padding-top: 5vh;
+}
+.board{
+    height: 50vh;
+}
